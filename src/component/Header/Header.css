@@ -4,7 +4,6 @@
     font-weight: 500;
     padding: 8px;
     border-radius: 10px;
-    
     margin-left: 50px;
     border: 2px solid lightcoral;
 }
@@ -13,7 +12,6 @@
     background-color: bisque;
     height: 120px;
     border-radius: 0px 0px 15px 15px;
-
     
 }
 .navigation a{
@@ -22,9 +20,15 @@
 }
 .navigation a:hover{
     background-color: blue;
-
 }
-.navbar h2{
-    margin-top: 0px;
-    margin-bottom: 30px;
+@media (max-width: 750px){
+    .navbar a{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 450px){
+    .navbar a{
+        margin-left: 2px;
+        padding: 2px;
+    }
 }

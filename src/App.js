@@ -9,8 +9,11 @@ import NotFound from './component/NotFound/NotFound';
 import Reviews from './component/Reviews/Reviews';
 function App() {
   return (
-    <div>
-      <Header></Header>
+    <div >
+      <div className='title'>
+        <h2>Welcome to our Product review website</h2>
+        <Header className="NavBar"></Header>
+      </div>
       <Routes>
         <Route path='/' element={<Homebody></Homebody>} />
         <Route path='/Home' element={<Homebody></Homebody>} />
