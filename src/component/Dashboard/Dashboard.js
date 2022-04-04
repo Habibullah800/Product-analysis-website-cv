@@ -11,24 +11,20 @@ const data = [
 
 ];
 
-
-
 const Dashboard = () => {
     return (
         <div>
             <h2>This is Dashboard</h2>
-
             <div className='chart'>
-
                 <div>
                     <LineChart width={600} height={330} data={data}>
                         <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                         <CartesianGrid stroke="#ccc" />
                         <XAxis dataKey="month" />
                         <YAxis />
+                        <Tooltip />
                     </LineChart>
                 </div>
-
                 <div>
                     <LineChart width={600} height={330} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                         <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
@@ -38,10 +34,7 @@ const Dashboard = () => {
                         <Tooltip />
                     </LineChart>
                 </div>
-
-
             </div>
-
         </div>
     );
 };
