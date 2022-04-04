@@ -1,0 +1,19 @@
+.pic{
+    height: 40px;
+    width: 35px;
+    border-radius: 10px;
+}
+.reviewContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: lightpink;
+    justify-content: center;
+    
+    margin: auto;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 10px;
+    
+    
+}
