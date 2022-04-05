@@ -8,7 +8,6 @@ const data = [
     { month: 'Jun', investment: 500000, sell: 529, revenue: 40405 },
     { month: 'Jul', investment: 600000, sell: 601, revenue: 50900 },
     { month: 'Aug', investment: 700000, sell: 670, revenue: 61000 },
-
 ];
 
 const Dashboard = () => {

@@ -2,7 +2,6 @@ import React from 'react';
 import './ReviewCart.css'
 
 const ReviewCart = (props) => {
-
     return (
         <div className='reviewContainer' >
             <img className='pic' src={props.product.Pic} alt="pic"></img>

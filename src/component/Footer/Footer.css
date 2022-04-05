@@ -1,0 +1,16 @@
+.footer{
+    height: 70px;
+    background-color: #1B9CFC;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+.footer h5{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+.footer h4{
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+}

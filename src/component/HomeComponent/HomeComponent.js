@@ -1,22 +1,20 @@
 import React from 'react';
-
-
+import Homereview from '../homeReview/Homereview';
 import LoadData from '../hook-Data/LoadData';
-import ReviewCart from '../ReviewCart/ReviewCart';
 
-const Reviews = () => {
+const HomeComponent = () => {
     const [product,] = LoadData()
     return (
         <div>
             <h2>This is reviews{product.length}</h2>
             {
-                product.map(product => <ReviewCart
+                product.map(product => <Homereview
                     key={product.id}
                     product={product}
-                ></ReviewCart>)
+                ></Homereview>)
             }
-        </div >
+        </div>
     );
 };
 
-export default Reviews;
+export default HomeComponent;
