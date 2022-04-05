@@ -2,3 +2,30 @@
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
 }
+.review{
+    text-align: center;
+}
+.allReview a{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 12px;
+    border: 1.5px solid blue;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+}
+.allReview{
+    text-align: center;
+    margin: 30px;
+}
+.allReview a:hover{
+    background-color:#C4E538 ;
+}
+.details{
+    padding: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.details h2{
+    margin: 40px;
+}

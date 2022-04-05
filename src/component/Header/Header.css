@@ -5,7 +5,7 @@
     padding: 8px;
     border-radius: 10px;
     margin-left: 50px;
-    border: 2px solid lightcoral;
+    border: 1.5px solid blue;
 }
 .navbar{
     text-align: center;
@@ -19,7 +19,7 @@
     height: 50px;
 }
 .navigation a:hover{
-    background-color: blue;
+    background-color: #C4E538;
 }
 @media (max-width: 750px){
     .navbar a{

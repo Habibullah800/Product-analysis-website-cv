@@ -7,10 +7,10 @@ const Homereview = (props) => {
             <div className='reviewContainer' >
                 <img className='pic' src={props.product.Pic} alt="pic"></img>
                 <h4>
-                    Name: {props.product.Name}
+                    <small>Name: {props.product.Name}</small>
                 </h4>
                 <p>Review: {props.product.Review}</p>
-                <h4>Rating: {props.product.Rating} </h4>
+                <small><h4>Rating: {props.product.Rating} </h4></small>
             </div>
         </div>
     );
