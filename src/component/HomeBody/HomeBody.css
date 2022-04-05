@@ -1,6 +1,7 @@
 .homeContainer{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
+    background-color: aquamarine;
 }
 .review{
     text-align: center;
@@ -28,4 +29,8 @@
 }
 .details h2{
     margin: 40px;
+}
+.picture img{
+    border-radius: 40px;
+    padding: 20px;
 }

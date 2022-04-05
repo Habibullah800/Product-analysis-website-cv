@@ -2,7 +2,7 @@
     {
         "Name": "Habib",
         "id": 1,
-        "Review": "Good-Product",
+        "Review": "Great",
         "Rating": 4.5,
         "Pic": "https://images.unsplash.com/photo-1623230590824-f39e31a0a608?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwYm95fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
     },
@@ -16,7 +16,7 @@
     {
         "Name": "Azad",
         "id": 3,
-        "Review": "Good-Product",
+        "Review": "Well",
         "Rating": 5.0,
         "Pic": "https://images.unsplash.com/photo-1611637576109-b6f76185ec9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym95JTIwcG9zZXxlbnwwfHwwfHw%3D&w=1000&q=80"
     },

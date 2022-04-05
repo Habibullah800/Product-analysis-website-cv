@@ -20,7 +20,7 @@ const Homebody = () => {
 
 
                 </div>
-                <div>
+                <div className='picture'>
                     <img src="https://m.media-amazon.com/images/I/71W1KvLH3sL._AC_SS450_.jpg" alt="camera"></img>
 
                 </div>
